@@ -1,9 +1,20 @@
 #!/usr/bin/perl -w
 
 =pod
-=head1 $0 
-=head2 script to convert roman numerals into arabic decimal notation
+
+=head1 NAME
+roman2arabic.pl
+
+=head2 DESCRIPTION
+script to convert roman numerals into arabic decimal notation
+
+=head2 EXAMPLE
+$ perl roman2arabic.pl mcmlxxi
+total is '1971'
+$
+
 =cut
+
 
 use strict;
 
