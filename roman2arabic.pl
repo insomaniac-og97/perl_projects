@@ -66,10 +66,6 @@ CHAR: foreach my $i ( 0 .. $#rn ) {
             $subtractor = $r2a{$rn[$i]};
             print( "subtractor is '$subtractor'\n" ) if $debug;
             next CHAR;
-        #XXX    continue
-        # account for last position
-        #XXXexcept IndexError:
-        #XXX    pass
         }
     }
 
