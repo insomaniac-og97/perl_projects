@@ -10,7 +10,7 @@ script to convert roman numerals into arabic decimal notation
 
 =head2 EXAMPLE
 $ perl roman2arabic.pl mcmlxxi
-total is '1971'
+roman 'mcmlxxi' decimal '1971'
 $
 
 =cut
@@ -84,5 +84,5 @@ CHAR: foreach my $i ( 0 .. $#rn ) {
     $subtractor = 0;
 }
 
-    # return the running total
-print "total is '$total'\n";
+# print the total
+print "roman '$ARGV[0]' decimal '$total'\n";
